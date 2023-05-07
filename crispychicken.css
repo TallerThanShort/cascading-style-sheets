@@ -1,0 +1,14 @@
+/*
+    Let it be known: This theme by TallerThanShort is unfinished! Expect many-a-patches here! (this will get updated pretty much only when it's needed)
+*/
+.background-primary {
+    background-color: rgb(32, 32, 32);
+}
+
+.eligible {
+    color: white;
+}
+
+a {
+  color: aqua;
+}
