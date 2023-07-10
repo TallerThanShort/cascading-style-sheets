@@ -1,5 +1,6 @@
 /*
     Let it be known: This theme by TallerThanShort is unfinished! Expect many-a-patches here! (this will get updated pretty much only when it's needed)
+    "crisychicken.css" is the official jankyCord theme, used across many jankyCord implementations, such as Crispy-Chat!
 */
 .background-primary {
     background-color: rgb(32, 32, 32);
@@ -11,4 +12,74 @@
 
 a {
   color: aqua;
+}
+
+div {
+    outline: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.guildNav {
+    overflow: hidden;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    position: relative;
+    width: 72px;
+    flex-shrink: 0;
+}
+
+.unorderedList1 {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.guildItem {
+    position: relative;
+    margin: 10px 0 0;
+    display: flex;
+    -webkit-box-pack: center;
+    width: 72px;
+}
+
+.guildImageContainer {
+    box-sizing: border-box;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.guildImage {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.scroller {
+    padding: 12px 0 0;
+    scrollbar-width: none;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 0;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
 }
